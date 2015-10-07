@@ -1,0 +1,60 @@
+/* Universal selector*/
+*{
+	margin: 0px;
+}
+body{
+	max-width: 100%;
+	font-family: 'Arial';
+}
+header{
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold
+}
+h1{
+	color:rgb(10,120,200);
+}
+
+h3{
+	color:rgb(150,200,120);
+}
+li{
+	font-size: 18px;
+}
+
+/* Class Selectors*/
+.role{
+
+}
+
+/*ID Selectors*/
+#navbar {
+
+	background-color: rgb(10,120,200);
+	width: 100%;
+	float:left;
+	margin: 20px auto;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+
+}
+
+/*Descendant Selector*/
+
+#navbar ul li a{
+	text-decoration: none;
+	color: white
+
+}
+
+/*Child selector*/
+#navbar > ul{
+	list-style: none;
+
+}
+#navbar > ul li{
+	display: inline;
+	margin-left: 10px
+
+}
+
