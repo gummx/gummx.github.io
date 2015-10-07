@@ -15,7 +15,6 @@ header{
 h1{
 	color:rgb(10,120,200);
 	margin: 0px 0px 10px;
-	color: rgb()
 }
 
 h3{
@@ -25,25 +24,45 @@ h3{
 article{
 	margin:20px 50px;
 }
-p{
+aside {
+    margin: 20px 50px;
+}
+article p{
 	text-align: left;
-	margin: 10px 0px 20px
+	margin: 10px 0px 20px;
+	width:100%;
 }
 /* Class Selectors*/
 .role{
 
 }
-.contact li{
-	border:1px solid rgb(10,120,200);
-    float: left;
-    margin-right: 10px;
-    padding: 10px 20px;
-    font-weight: 100;
-}
 .contact {
     list-style: none;
     padding: 0px;
     margin: 10px 0px
+}
+.contact li{
+
+}
+.contact li a{
+	border:1px solid rgb(10,120,200);
+    float: left;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-weight: 100;	
+    color:rgb(10,120,200);
+	text-decoration: none;
+
+}
+.contact li a:hover{
+	background-color: rgb(10,120,200);
+    color:white;
+
+}
+.avatar{
+	width: 23%;
+	float: left;
+	margin-right: 20px
 }
 /*ID Selectors*/
 #navbar {
@@ -61,7 +80,7 @@ p{
 
 #navbar ul li a{
 	text-decoration: none;
-	color: white
+	color: white;
 
 }
 
@@ -85,9 +104,9 @@ h3 + p{
 
 /* Pseudo class selector*/
 a:link{
-	color:red;
+	text-decoration: none
 }
-a:visited{
+/*a:visited{
 	color:yellow
 }
 a:focus{
@@ -98,7 +117,7 @@ a:hover{
 }
 a:hover{
 	color:
-}
+}*/
 #navbar > ul li a:hover{
 	color:rgb(150,190,240);
 
