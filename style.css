@@ -4,39 +4,55 @@
 }
 body{
 	max-width: 100%;
-	font-family: 'Arial';
+	font-family: "Arial", Helvetica, sans-serif
 }
 header{
-	font-size: 28px;
+	font-size: 30px;
 	text-align: center;
-	font-weight: bold
+	font-weight: bold;
+	margin: 30px 0px 0px;
 }
 h1{
 	color:rgb(10,120,200);
+	margin: 0px 0px 10px
 }
 
 h3{
-	color:
-}
-li{
-	font-size: 18px;
-	color:;
+
 }
 
+article{
+	margin:20px 50px;
+}
+p{
+	text-align: left;
+	margin: 10px 0px 20px
+}
 /* Class Selectors*/
 .role{
 
 }
-
+.contact li{
+	border:1px solid rgb(10,120,200);
+    float: left;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-weight: 100;
+}
+.contact {
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0px
+}
 /*ID Selectors*/
 #navbar {
 
 	background-color: rgb(10,120,200);
-	width: 100%;
-	float:left;
+	/*width: 100%;
+	float:left;*/
 	margin: 20px auto;
 	text-align: center;
-	padding: 20px 0px 20px 0px;
+	padding: 30px 0px 30px 0px;
 
 }
 
@@ -44,7 +60,7 @@ li{
 
 #navbar ul li a{
 	text-decoration: none;
-	color: white
+	color: 
 
 }
 
@@ -55,9 +71,11 @@ li{
 }
 #navbar > ul li{
 	display: inline;
-	margin-left: 10px
+	margin-right: 4%;
+	font-size: 24px
 
 }
+
 
 /*Adjacent sibling selector*/
 h3 + p{
@@ -79,5 +97,9 @@ a:hover{
 }
 a:hover{
 	color:
+}
+#navbar > ul li a:hover{
+	color:rgb(150,190,240);
+
 }
 
