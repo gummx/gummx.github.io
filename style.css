@@ -62,3 +62,18 @@ li{
 h3 + p{
 	color:blue;
 }
+
+/* Pseudo class selector*/
+a:link{
+	color:red;
+}
+a:visited{
+	color:yellow
+}
+a:focus{
+	color:green
+}
+a:hover{
+	color:orange
+}
+
