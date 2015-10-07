@@ -58,3 +58,7 @@ li{
 
 }
 
+/*Adjacent sibling selector*/
+h3 + p{
+	color:blue;
+}
