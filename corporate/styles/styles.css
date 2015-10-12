@@ -23,7 +23,9 @@ h1{
 	margin: 0px 0px 10px;
 	font-size: 2em
 }
-
+p{
+	color:rgb(160,160,160)
+	}
 article{
 	margin:20px 50px;
 }
@@ -38,6 +40,8 @@ article p{
 footer{
 	background-color:#302E2E;
 	min-height:100px;
+	float:left;
+	width:100%
 	
 	}
 footer p{
@@ -127,9 +131,6 @@ footer p{
 
 
 /*Adjacent sibling selector*/
-h3 + p{
-	color:blue;
-}
 
 /* Pseudo class selector*/
 a:link{
@@ -176,7 +177,10 @@ a:link{
 #content aside{
 	float:left
 }
-
+#contact{
+	width: 80%;
+	margin: 0% auto 10%;
+}
 @media screen and (max-width:767px){
 #content img {
     height: 200px;
@@ -201,4 +205,42 @@ a:link{
 #navbar >ul li{
 	    font-size: 0.9em;
 	}
+.column-3{
+	width:100%;
+	float:left;
+	height:auto;
+    padding: 10px 0px;
+    margin: 0px 1%;
+    text-align: center;
+
+	}	
 } 
+
+/* Views*/
+#servicios{
+	width: 80%;
+	margin: 3% auto 10%;
+}	
+.column-3{
+	width:30%;
+	float:left;
+	height:auto;
+    padding: 10px 0px;
+    margin: 0px 1%;
+    text-align: center;
+
+	}
+.column-3 img,.column-2 img{
+	max-width:100%
+
+	}	
+.column-3 h2{
+	line-height:2em;
+	color:#9e47d2
+
+	}
+.column-2{
+	width:48%;
+	float:left;
+	margin:2% 1% 5%
+	}
